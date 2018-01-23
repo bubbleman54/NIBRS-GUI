@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.nibrs.ucr.cjis.fbi.gov/">
+                <soapenv:Header/>
+                <soapenv:Body>
+                <ws:SubmitNibrsReport>
+                <NibrsReport>
+                <formatType>XML</formatType>
+                
+        <nibrsGroupAArrestees>
+        
+        <ageRange>40</ageRange>
+            
+        
+        <ethnicity>N</ethnicity>
+        
+        <race>W</race>
+        
+        <sex>M</sex>
+        
+        
+        <armedWith>
+        
+                <weaponCode>01</weaponCode>
+            
+        </armedWith>
+    
+        
+        <juvenileDisposition></juvenileDisposition>
+        <nibrsArrest>
+        
+        <arrestChargeUCRCode>09A</arrestChargeUCRCode>
+        
+        
+                <arrestDate>20170701</arrestDate>
+            
+        
+        <arrestTransactionNumber>FBIPGH09A1</arrestTransactionNumber>
+        
+        <incidentNumber>PA2016080901</incidentNumber>
+        
+        <typeOfArrest>T</typeOfArrest>
+        </nibrsArrest>
+        
+        <residentStatus>R</residentStatus>
+        
+        <sequenceNumber>1</sequenceNumber>
+        
+        <multipleArresteeSegmentIndicator>N</multipleArresteeSegmentIndicator>
+        </nibrsGroupAArrestees>
+    
+        <nibrsIncident>
+        
+        <cargoTheftIndicator>N</cargoTheftIndicator>
+        
+        
+        <exceptionalClearanceDate></exceptionalClearanceDate>
+        
+        <exceptionallyClearedFlag>N</exceptionallyClearedFlag>
+        
+        
+                <incidentDate>20170409</incidentDate>
+            
+        
+        <incidentHour>00</incidentHour>
+        
+        <incidentNumber>PA2016080901</incidentNumber>
+        
+        <reportDateIndicator>R</reportDateIndicator>
+        </nibrsIncident>
+    
+        <nibrsOffenders>
+        
+        <ageRange>40</ageRange>
+            
+        
+        <ethnicity>N</ethnicity>
+        
+        <race>W</race>
+        
+        <sex>M</sex>
+        
+        <sequenceNumber>01</sequenceNumber>
+        </nibrsOffenders>
+    
+        <nibrsOffenses>
+        
+        
+        <biasMotivations>88</biasMotivations>
+    
+        <criminalActs>N</criminalActs>
+    
+        
+        <locationType>10</locationType>
+        
+        <methodOfEntry></methodOfEntry>
+        <numberPremisesEntered></numberPremisesEntered>
+        
+        
+        <offenderSuspectedUsing>N</offenderSuspectedUsing>
+    
+        
+        <offenseAttemptedIndicator>C</offenseAttemptedIndicator>
+        
+        
+        <typeWeaponForce>
+        
+                <weaponCode>11</weaponCode>
+            
+        </typeWeaponForce>
+    
+        
+        <UCROffenseCode>09A</UCROffenseCode>
+        </nibrsOffenses>
+    
+        <nibrsReportHeader>
+        <actionType>R</actionType>
+        
+        <agencyORI>TSADMIN01</agencyORI>
+        <reportDateMonth>07</reportDateMonth>
+        <reportDateYear>2017</reportDateYear>
+        <segmentLevel>1</segmentLevel>
+        </nibrsReportHeader> 
+    
+        <nibrsVictims>
+        
+        <ageRange>34</ageRange>
+            
+        
+        <ethnicity>H</ethnicity>
+        
+        <race>W</race>
+        
+        <sex>F</sex>
+        
+        
+        <aggAssaultHomicideCodes>06</aggAssaultHomicideCodes>
+    
+        
+        <assignmentType></assignmentType>
+        
+            
+            <connectedToUCROffenseCodes>09A</connectedToUCROffenseCodes>
+        
+        
+        <justifiableHomicideCode></justifiableHomicideCode>
+        
+            <nibrsRelationships>
+            
+            <offenderNumber>01</offenderNumber>
+            
+            <victimToOffenderRelationship>EE</victimToOffenderRelationship>
+            </nibrsRelationships>
+        
+        
+        <outsideAgencyORI></outsideAgencyORI>
+        
+        <residentStatus>U</residentStatus>
+        
+        <sequenceNumber>1</sequenceNumber>
+        
+        <typeOfActivity></typeOfActivity>
+        
+        <victimType>I</victimType>
+        </nibrsVictims>
+    
+                </NibrsReport>
+                </ws:SubmitNibrsReport>
+                </soapenv:Body>
+                </soapenv:Envelope>
+            

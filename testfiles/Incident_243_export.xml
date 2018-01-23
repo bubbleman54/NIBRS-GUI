@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nibrs:Submission xmlns:s="http://release.niem.gov/niem/structures/3.0/" xmlns:cjis="http://fbi.gov/cjis/1.0" xmlns:nc="http://release.niem.gov/niem/niem-core/3.0/" xmlns:j="http://release.niem.gov/niem/domains/jxdm/5.2/" xmlns:nibrs="http://fbi.gov/cjis/nibrs/4.2" xmlns:cjiscodes="http://fbi.gov/cjis/cjis-codes/1.0" xmlns:i="http://release.niem.gov/niem/appinfo/3.0/" xmlns:ucr="http://release.niem.gov/niem/codes/fbi_ucr/3.2/" xmlns:term="http://release.niem.gov/niem/localTerminology/3.0/" xmlns:niem-xsd="http://release.niem.gov/niem/proxy/xsd/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:nibrscodes="http://fbi.gov/cjis/nibrs/nibrs-codes/4.2">
+    <cjis:MessageMetadata>
+        <cjis:MessageDateTime>2017-09-14T13:47:59</cjis:MessageDateTime>
+        <cjis:MessageIdentification>
+            <nc:IdentificationID>243-2017-09-14T13:47:59.217-04:00</nc:IdentificationID>
+        </cjis:MessageIdentification>
+        <cjis:MessageImplementationVersion>4.2</cjis:MessageImplementationVersion>
+        <cjis:MessageSubmittingOrganization>
+            <j:OrganizationAugmentation>
+                <j:OrganizationORIIdentification>
+                    <nc:IdentificationID>CAFBILA00</nc:IdentificationID>
+                </j:OrganizationORIIdentification>
+            </j:OrganizationAugmentation>
+        </cjis:MessageSubmittingOrganization>
+    </cjis:MessageMetadata>
+    <nibrs:Report>
+        <nibrs:ReportHeader>
+            <nibrs:NIBRSReportCategoryCode>GROUP A INCIDENT REPORT</nibrs:NIBRSReportCategoryCode>
+            <nibrs:ReportActionCategoryCode>I</nibrs:ReportActionCategoryCode>
+            <nibrs:ReportDate>
+                <nc:YearMonthDate>2017-09</nc:YearMonthDate>
+            </nibrs:ReportDate>
+            <nibrs:ReportingAgency>
+                <j:OrganizationAugmentation>
+                    <j:OrganizationORIIdentification>
+                        <nc:IdentificationID>CAFBILA00</nc:IdentificationID>
+                    </j:OrganizationORIIdentification>
+                </j:OrganizationAugmentation>
+            </nibrs:ReportingAgency>
+        </nibrs:ReportHeader>
+        <nc:Incident>
+            <nc:ActivityIdentification>
+                <nc:IdentificationID>243</nc:IdentificationID>
+            </nc:ActivityIdentification>
+            <cjis:IncidentAugmentation>
+                <cjis:IncidentReportDateIndicator>false</cjis:IncidentReportDateIndicator>
+                <j:OffenseCargoTheftIndicator xsi:nil="true"/>
+            </cjis:IncidentAugmentation>
+        </nc:Incident>
+    </nibrs:Report>
+</nibrs:Submission>

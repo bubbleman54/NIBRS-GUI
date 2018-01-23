@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nibrs:Submission xmlns:nibrs="http://fbi.gov/cjis/nibrs/4.0" 
+	xmlns:cjis="http://fbi.gov/cjis/1.0" 
+	xmlns:cjiscodes="http://fbi.gov/cjis/cjis-codes/1.0" 
+	xmlns:nibrscodes="http://fbi.gov/cjis/nibrs/nibrs-codes/4.0" 
+	xmlns:i="http://release.niem.gov/niem/appinfo/3.0/" 
+	xmlns:ucr="http://release.niem.gov/niem/codes/fbi_ucr/3.2/" 
+	xmlns:j="http://release.niem.gov/niem/domains/jxdm/5.2/" 
+	xmlns:term="http://release.niem.gov/niem/localTerminology/3.0/" 
+	xmlns:nc="http://release.niem.gov/niem/niem-core/3.0/" 
+	xmlns:niem-xsd="http://release.niem.gov/niem/proxy/xsd/3.0/" 
+	xmlns:s="http://release.niem.gov/niem/structures/3.0/" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xsi:schemaLocation="http://fbi.gov/cjis/nibrs/4.0 ../base-xsd/nibrs/4.0/nibrs.xsd">
+
+	<cjis:MessageMetadata>
+		<cjis:MessageDateTime>2017-08-01T03:00:00</cjis:MessageDateTime>
+		<cjis:MessageIdentification>
+			<nc:IdentificationID>012345</nc:IdentificationID>
+		</cjis:MessageIdentification>
+		<cjis:MessageImplementationVersion>4.2</cjis:MessageImplementationVersion>
+		<cjis:MessageSubmittingOrganization>
+			<j:OrganizationAugmentation>
+				<j:OrganizationORIIdentification>
+					<nc:IdentificationID>ORI456789</nc:IdentificationID>
+				</j:OrganizationORIIdentification>
+			</j:OrganizationAugmentation>
+		</cjis:MessageSubmittingOrganization>
+	</cjis:MessageMetadata>
+	<nibrs:Report>
+		<nibrs:ReportHeader>
+			<!-- Submission Type -->
+			<nibrs:NIBRSReportCategoryCode>GROUP A INCIDENT REPORT</nibrs:NIBRSReportCategoryCode>
+			<!-- Submission Action Type -->
+			<nibrs:ReportActionCategoryCode>I</nibrs:ReportActionCategoryCode>
+			<nibrs:ReportDate>
+				<!-- Year/Month Of Report -->
+				<nc:YearMonthDate>2017-07</nc:YearMonthDate>
+			</nibrs:ReportDate>
+			<nibrs:ReportingAgency>
+				<j:OrganizationAugmentation>
+					<j:OrganizationORIIdentification>
+						<!-- Element 1, ORI Code -->
+						<nc:IdentificationID>ORI456789</nc:IdentificationID>
+					</j:OrganizationORIIdentification>
+				</j:OrganizationAugmentation>
+			</nibrs:ReportingAgency>
+		</nibrs:ReportHeader>
+		<nc:Incident>
+			<nc:ActivityIdentification>
+				<!-- Element 2, Incident Number-->
+				<nc:IdentificationID>123456789001</nc:IdentificationID>
+			</nc:ActivityIdentification>
+			<!-- Element 3, Incident Date and Hour-->
+			<nc:ActivityDate>
+				<nc:DateTime>2017-07-26T10:00:00</nc:DateTime>
+			</nc:ActivityDate>
+			<cjis:IncidentAugmentation>
+				<!-- Element 3, IncidentReportDateIndicator is true to designate that the ActivityDate is the Report Date rather than the Incident Date -->
+				<cjis:IncidentReportDateIndicator>true</cjis:IncidentReportDateIndicator>
+			</cjis:IncidentAugmentation>
+			<j:IncidentAugmentation>
+				<!-- Element 4, Cleared Exceptionally code value -->
+				<j:IncidentExceptionalClearanceCode>N</j:IncidentExceptionalClearanceCode>
+			</j:IncidentAugmentation>
+		</nc:Incident>
+		<j:Offense s:id="Offense1">
+			<!-- Element 6, Offense Code -->
+			<nibrs:OffenseUCRCode>09A</nibrs:OffenseUCRCode>
+			<!-- Element 12, Type Criminal Activity/Gang Information -->
+			<nibrs:CriminalActivityCategoryCode>N</nibrs:CriminalActivityCategoryCode>
+			<!-- Element 8A, Bias Motivation  -->
+			<j:OffenseFactorBiasMotivationCode>NONE</j:OffenseFactorBiasMotivationCode>
+			<!-- Element 8, Offender(s) Suspected Of Using -->
+			<j:OffenseFactor>
+				<j:OffenseFactorCode>N</j:OffenseFactorCode>
+			</j:OffenseFactor>
+			<!-- Element 13, Type Weapon/Force Involved -->
+			<j:OffenseForce>
+				<j:ForceCategoryCode>11</j:ForceCategoryCode>
+			</j:OffenseForce>
+			<!-- Element 7, Attempted(true)/Completed(false) -->
+			<j:OffenseAttemptedIndicator>false</j:OffenseAttemptedIndicator>
+		</j:Offense>
+		<!-- Element 9, Location Type -->
+		<nc:Location s:id="Location1">
+			<nibrs:LocationCategoryCode>13</nibrs:LocationCategoryCode>
+		</nc:Location>
+		<nc:Person s:id="PersonVictim1">
+			<!-- Element 26, Age of Victim (only one would be included per victim)-->
+			<nc:PersonAgeMeasure>
+				<nc:MeasureIntegerRange>
+					<nc:RangeMaximumIntegerValue>39</nc:RangeMaximumIntegerValue>
+					<nc:RangeMinimumIntegerValue>30</nc:RangeMinimumIntegerValue>
+				</nc:MeasureIntegerRange>
+			</nc:PersonAgeMeasure>
+			<!-- Element 29, Ethnicity of Victim -->
+			<j:PersonEthnicityCode>U</j:PersonEthnicityCode>
+			<!-- Element 28, Race of Victim -->
+			<j:PersonRaceNDExCode>W</j:PersonRaceNDExCode>
+			<!-- Element 30, Resident Status -->
+			<j:PersonResidentCode>U</j:PersonResidentCode>
+			<!-- Element 27, Sex of Victim -->
+			<j:PersonSexCode>M</j:PersonSexCode>
+		</nc:Person>
+		<nc:Person s:id="PersonSubject1">
+			<!-- Element 37, Age of Subject (only one would be included per subject)-->
+			<nc:PersonAgeMeasure>
+				<nc:MeasureValueText>UNKNOWN</nc:MeasureValueText>
+			</nc:PersonAgeMeasure>
+			<!-- Element 39, Race of Subject -->
+			<j:PersonRaceNDExCode>W</j:PersonRaceNDExCode>
+			<!-- Element 38, Sex of Subject -->
+			<j:PersonSexCode>F</j:PersonSexCode>
+		</nc:Person>
+		<j:Victim s:id="Victim1">
+			<nc:RoleOfPerson s:ref="PersonVictim1"/>
+			<!-- Element 23, Victim Sequence Number -->
+			<j:VictimSequenceNumberText>1</j:VictimSequenceNumberText>
+			<!-- Element 25, Type of Victim -->
+			<j:VictimCategoryCode>I</j:VictimCategoryCode>
+			<!-- Element 31, Aggravated Assault/Homicide Circumstances -->
+			<j:VictimAggravatedAssaultHomicideFactorCode>01</j:VictimAggravatedAssaultHomicideFactorCode>
+		</j:Victim>
+		<j:Subject s:id="Subject1">
+			<nc:RoleOfPerson s:ref="PersonSubject1"/>
+			<!-- Element 36, Offender Sequence Number -->
+			<j:SubjectSequenceNumberText>1</j:SubjectSequenceNumberText>
+		</j:Subject>
+		<!-- Associations ================================================== -->
+		<!-- Offense Location Association -->
+		<j:OffenseLocationAssociation>
+			<j:Offense s:ref="Offense1"/>
+			<nc:Location s:ref="Location1"/>
+		</j:OffenseLocationAssociation>
+		<!-- Element 24, Victim Connected to UCR Offense Code -->
+		<j:OffenseVictimAssociation>
+			<j:Offense s:ref="Offense1"/>
+			<j:Victim s:ref="Victim1"/>
+		</j:OffenseVictimAssociation>
+		<!--Element 34, Offender Number(s) to be related -->
+		<j:SubjectVictimAssociation s:id="SubjectVictimAssocSP1">
+			<!-- Element 35, Relationship(s) of Victim To Offender -->
+			<j:Subject s:ref="Subject1"/>
+			<j:Victim s:ref="Victim1"/>
+			<j:VictimToSubjectRelationshipCode>Relationship Unknown</j:VictimToSubjectRelationshipCode>
+		</j:SubjectVictimAssociation>
+	</nibrs:Report>
+</nibrs:Submission>

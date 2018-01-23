@@ -1,0 +1,202 @@
+<nibrsReport>
+				<formatType>XML</formatType>
+
+				<nibrsGroupAArrestees>
+
+					<ageRange>35</ageRange>
+
+
+					<ethnicity></ethnicity>
+
+					<race>W</race>
+
+					<sex>M</sex>
+
+
+					<armedWith>
+
+						<automaticIndicator>A</automaticIndicator>
+						<weaponCode>13</weaponCode>
+
+					</armedWith>
+
+
+					<juvenileDisposition></juvenileDisposition>
+					<nibrsArrest>
+
+						<arrestChargeUCRCode>240</arrestChargeUCRCode>
+
+
+						<arrestDate>20170303</arrestDate>
+
+
+						<arrestTransactionNumber>MN0201771521</arrestTransactionNumber>
+
+						<incidentNumber>MN0201771520</incidentNumber>
+
+						<typeOfArrest>T</typeOfArrest>
+					</nibrsArrest>
+
+					<residentStatus>U</residentStatus>
+
+					<sequenceNumber>1</sequenceNumber>
+
+					<multipleArresteeSegmentIndicator>C
+					</multipleArresteeSegmentIndicator>
+				</nibrsGroupAArrestees>
+
+				<nibrsIncident>
+
+					<cargoTheftIndicator>N</cargoTheftIndicator>
+
+
+					<exceptionalClearanceDate></exceptionalClearanceDate>
+
+					<exceptionallyClearedFlag>N</exceptionallyClearedFlag>
+
+
+					<incidentDate>20170303</incidentDate>
+
+
+					<incidentHour>10</incidentHour>
+
+					<incidentNumber>MN0201771520</incidentNumber>
+
+					<reportDateIndicator></reportDateIndicator>
+				</nibrsIncident>
+
+				<nibrsOffenders>
+
+					<ageRange>35</ageRange>
+
+
+					<ethnicity></ethnicity>
+
+					<race>W</race>
+
+					<sex>M</sex>
+
+					<sequenceNumber>1</sequenceNumber>
+				</nibrsOffenders>
+
+				<nibrsOffenses>
+
+
+					<biasMotivations>83</biasMotivations>
+
+
+					<locationType>06</locationType>
+
+					<methodOfEntry></methodOfEntry>
+					<numberPremisesEntered></numberPremisesEntered>
+
+
+					<offenderSuspectedUsing>N</offenderSuspectedUsing>
+
+
+					<offenseAttemptedIndicator>C</offenseAttemptedIndicator>
+
+
+
+					<UCROffenseCode>240</UCROffenseCode>
+				</nibrsOffenses>
+
+				<nibrsProperties>
+
+					<incidentNumber>MN0201771520</incidentNumber>
+
+					<nibrsPropertyItems>
+
+						<amount>3003</amount>
+
+						<categoryCode>24</categoryCode>
+
+
+					</nibrsPropertyItems>
+
+					<nibrsPropertyItems>
+
+						<amount>2002</amount>
+
+						<categoryCode>05</categoryCode>
+
+
+					</nibrsPropertyItems>
+
+					<nibrsPropertyItems>
+
+						<amount>1001</amount>
+
+						<categoryCode>03</categoryCode>
+
+
+					</nibrsPropertyItems>
+
+					<nibrsPropertyItems>
+
+						<amount>1001</amount>
+
+						<categoryCode>28</categoryCode>
+
+
+					</nibrsPropertyItems>
+
+					<nibrsPropertyItems>
+
+						<amount>1001</amount>
+
+						<categoryCode>37</categoryCode>
+
+
+					</nibrsPropertyItems>
+
+
+					<stolenVehicleQuantity>19</stolenVehicleQuantity>
+
+
+					<typePropertyLossCode>7</typePropertyLossCode>
+				</nibrsProperties>
+
+				<nibrsReportHeader>
+					<actionType>I</actionType>
+
+					<agencyORI>MN0271100</agencyORI>
+					<reportDateMonth>08</reportDateMonth>
+					<reportDateYear>2017</reportDateYear>
+					<segmentLevel>1</segmentLevel>
+				</nibrsReportHeader>
+
+				<nibrsVictims>
+
+					<ageRange>45</ageRange>
+
+
+					<ethnicity>H</ethnicity>
+
+					<race>W</race>
+
+					<sex>F</sex>
+
+
+
+					<assignmentType></assignmentType>
+
+
+					<connectedToUCROffenseCodes>240</connectedToUCROffenseCodes>
+
+
+					<justifiableHomicideCode></justifiableHomicideCode>
+
+
+					<outsideAgencyORI></outsideAgencyORI>
+
+					<residentStatus>U</residentStatus>
+
+					<sequenceNumber>1</sequenceNumber>
+
+					<typeOfActivity></typeOfActivity>
+
+					<victimType>I</victimType>
+				</nibrsVictims>
+
+			</nibrsReport>

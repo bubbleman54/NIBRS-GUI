@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.nibrs.ucr.cjis.fbi.gov/">
+                <soapenv:Header/>
+                <soapenv:Body>
+                <ws:SubmitNibrsReport>
+                <NibrsReport>
+                <formatType>XML</formatType>
+                
+        <nibrsGroupBArrestees>
+        
+        <ageRange>30</ageRange>
+            
+        
+        <ethnicity>N</ethnicity>
+        
+        <race>W</race>
+        
+        <sex>M</sex>
+        
+        
+        <armedWith>
+        
+                <weaponCode>12</weaponCode>
+            
+        </armedWith>
+    
+        
+        <juvenileDisposition>H</juvenileDisposition>
+        <nibrsArrest>
+        
+        <arrestChargeUCRCode>64A</arrestChargeUCRCode>
+        
+        
+                <arrestDate>20160228</arrestDate>
+            
+        
+        <arrestTransactionNumber>12345</arrestTransactionNumber>
+        
+        
+        
+        <typeOfArrest>O</typeOfArrest>
+        </nibrsArrest>
+        
+        <residentStatus>R</residentStatus>
+        
+        <sequenceNumber>1</sequenceNumber>
+        </nibrsGroupBArrestees>
+    
+        <nibrsReportHeader>
+        <actionType>A</actionType>
+        
+        <agencyORI>WVNDX0100</agencyORI>
+        <reportDateMonth>02</reportDateMonth>
+        <reportDateYear>2016</reportDateYear>
+        <segmentLevel>7</segmentLevel>
+        </nibrsReportHeader> 
+    
+                </NibrsReport>
+                </ws:SubmitNibrsReport>
+                </soapenv:Body>
+                </soapenv:Envelope>
+            

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nibrs:Submission xmlns:s="http://release.niem.gov/niem/structures/3.0/" xmlns:cjis="http://fbi.gov/cjis/1.0" xmlns:nc="http://release.niem.gov/niem/niem-core/3.0/" xmlns:j="http://release.niem.gov/niem/domains/jxdm/5.2/" xmlns:nibrs="http://fbi.gov/cjis/nibrs/4.2" xmlns:cjiscodes="http://fbi.gov/cjis/cjis-codes/1.0" xmlns:i="http://release.niem.gov/niem/appinfo/3.0/" xmlns:ucr="http://release.niem.gov/niem/codes/fbi_ucr/3.2/" xmlns:term="http://release.niem.gov/niem/localTerminology/3.0/" xmlns:niem-xsd="http://release.niem.gov/niem/proxy/xsd/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:nibrscodes="http://fbi.gov/cjis/nibrs/nibrs-codes/4.2">
+    <cjis:MessageMetadata>
+        <cjis:MessageDateTime>2017-08-16T09:35:14</cjis:MessageDateTime>
+        <cjis:MessageIdentification>
+            <nc:IdentificationID>1254-2017-08-16T09:35:14.535-04:00</nc:IdentificationID>
+        </cjis:MessageIdentification>
+        <cjis:MessageImplementationVersion>4.2</cjis:MessageImplementationVersion>
+        <cjis:MessageSubmittingOrganization>
+            <j:OrganizationAugmentation>
+                <j:OrganizationORIIdentification>
+                    <nc:IdentificationID>MDFBIBA00</nc:IdentificationID>
+                </j:OrganizationORIIdentification>
+            </j:OrganizationAugmentation>
+        </cjis:MessageSubmittingOrganization>
+    </cjis:MessageMetadata>
+    <nibrs:Report>
+        <nibrs:ReportHeader>
+            <nibrs:NIBRSReportCategoryCode>GROUP A INCIDENT REPORT</nibrs:NIBRSReportCategoryCode>
+            <nibrs:ReportActionCategoryCode>I</nibrs:ReportActionCategoryCode>
+            <nibrs:ReportDate>
+                <nc:YearMonthDate>2017-08</nc:YearMonthDate>
+            </nibrs:ReportDate>
+            <nibrs:ReportingAgency>
+                <j:OrganizationAugmentation>
+                    <j:OrganizationORIIdentification>
+                        <nc:IdentificationID>MDFBIBA00</nc:IdentificationID>
+                    </j:OrganizationORIIdentification>
+                </j:OrganizationAugmentation>
+            </nibrs:ReportingAgency>
+        </nibrs:ReportHeader>
+        <nc:Incident>
+            <nc:ActivityIdentification>
+                <nc:IdentificationID>1254</nc:IdentificationID>
+            </nc:ActivityIdentification>
+            <nc:ActivityDate>
+                <nc:DateTime>2017-06-14T16:00:00</nc:DateTime>
+            </nc:ActivityDate>
+            <cjis:IncidentAugmentation>
+                <cjis:IncidentReportDateIndicator>false</cjis:IncidentReportDateIndicator>
+                <j:OffenseCargoTheftIndicator xsi:nil="true"/>
+            </cjis:IncidentAugmentation>
+        </nc:Incident>
+        <j:Offense s:id="Offense0">
+            <nc:ActivityIdentification xsi:nil="true"/>
+            <nibrs:OffenseUCRCode>520</nibrs:OffenseUCRCode>
+            <nibrs:CriminalActivityCategoryCode>B</nibrs:CriminalActivityCategoryCode>
+            <j:OffenseFactorBiasMotivationCode>NONE</j:OffenseFactorBiasMotivationCode>
+            <j:OffenseStructuresEnteredQuantity xsi:nil="true"/>
+            <j:OffenseFactor>
+                <j:OffenseFactorCode>N</j:OffenseFactorCode>
+            </j:OffenseFactor>
+            <j:OffenseEntryPoint xsi:nil="true"/>
+            <j:OffenseForce>
+                <nc:ActivityIdentification xsi:nil="true"/>
+                <j:ForceCategoryCode>13A</j:ForceCategoryCode>
+            </j:OffenseForce>
+            <j:OffenseAttemptedIndicator>false</j:OffenseAttemptedIndicator>
+        </j:Offense>
+        <nc:Location s:id="Location0">
+            <nibrs:LocationCategoryCode>03</nibrs:LocationCategoryCode>
+        </nc:Location>
+        <nc:Person s:id="PersonSubject0">
+            <nc:PersonAgeMeasure>
+                <nc:MeasureIntegerValue>20</nc:MeasureIntegerValue>
+            </nc:PersonAgeMeasure>
+            <j:PersonEthnicityCode>N</j:PersonEthnicityCode>
+            <j:PersonRaceNDExCode>W</j:PersonRaceNDExCode>
+            <j:PersonResidentCode>R</j:PersonResidentCode>
+            <j:PersonSexCode>M</j:PersonSexCode>
+        </nc:Person>
+        <j:Victim s:id="Victim0">
+            <j:VictimSequenceNumberText>1</j:VictimSequenceNumberText>
+            <j:VictimCategoryCode>S</j:VictimCategoryCode>
+        </j:Victim>
+        <j:Subject s:id="Subject0">
+            <nc:RoleOfPerson s:ref="PersonSubject0">
+                <nc:PersonAgeMeasure xsi:nil="true"/>
+            </nc:RoleOfPerson>
+            <j:SubjectSequenceNumberText>1</j:SubjectSequenceNumberText>
+        </j:Subject>
+        <j:Arrestee s:id="Arrestee0">
+            <nc:RoleOfPerson s:ref="PersonSubject0">
+                <nc:PersonAgeMeasure xsi:nil="true"/>
+            </nc:RoleOfPerson>
+            <j:SubjectSequenceNumberText xsi:nil="true"/>
+            <j:ArrestSequenceID>1</j:ArrestSequenceID>
+            <j:ArresteeClearanceIndicator xsi:nil="true"/>
+            <j:ArresteeArmedWithCode>13A</j:ArresteeArmedWithCode>
+            <j:ArrestSubjectCountCode>C</j:ArrestSubjectCountCode>
+        </j:Arrestee>
+        <j:Arrest s:id="Arrest0">
+            <nc:ActivityIdentification>
+                <nc:IdentificationID>83961</nc:IdentificationID>
+            </nc:ActivityIdentification>
+            <nc:ActivityDate>
+                <nc:Date>2017-06-14</nc:Date>
+            </nc:ActivityDate>
+            <j:ArrestCharge>
+                <nibrs:ChargeUCRCode>520</nibrs:ChargeUCRCode>
+            </j:ArrestCharge>
+            <j:ArrestCategoryCode>O</j:ArrestCategoryCode>
+        </j:Arrest>
+        <j:ArrestSubjectAssociation>
+            <nc:Activity s:ref="Arrest0">
+                <nc:ActivityIdentification xsi:nil="true"/>
+            </nc:Activity>
+            <j:Subject s:ref="Arrestee0">
+                <j:SubjectSequenceNumberText xsi:nil="true"/>
+            </j:Subject>
+        </j:ArrestSubjectAssociation>
+        <j:OffenseLocationAssociation>
+            <j:Offense s:ref="Offense0">
+                <nc:ActivityIdentification xsi:nil="true"/>
+                <j:OffenseStructuresEnteredQuantity xsi:nil="true"/>
+                <j:OffenseEntryPoint xsi:nil="true"/>
+                <j:OffenseAttemptedIndicator xsi:nil="true"/>
+            </j:Offense>
+            <nc:Location s:ref="Location0"/>
+        </j:OffenseLocationAssociation>
+        <j:OffenseVictimAssociation>
+            <j:Offense s:ref="Offense0">
+                <nc:ActivityIdentification xsi:nil="true"/>
+                <j:OffenseStructuresEnteredQuantity xsi:nil="true"/>
+                <j:OffenseEntryPoint xsi:nil="true"/>
+                <j:OffenseAttemptedIndicator xsi:nil="true"/>
+            </j:Offense>
+            <j:Victim s:ref="Victim0">
+                <j:VictimSequenceNumberText xsi:nil="true"/>
+            </j:Victim>
+        </j:OffenseVictimAssociation>
+    </nibrs:Report>
+</nibrs:Submission>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.nibrs.ucr.cjis.fbi.gov/">
+                <soapenv:Header/>
+                <soapenv:Body>
+                <ws:SubmitNibrsReport>
+                <NibrsReport>
+                <formatType>XML</formatType>
+                
+        <nibrsGroupAArrestees>
+        
+        <ageRange>30</ageRange>
+            
+        
+        <ethnicity>H</ethnicity>
+        
+        <race>B</race>
+        
+        <sex>M</sex>
+        
+        
+        <armedWith>
+        
+                <weaponCode>01</weaponCode>
+            
+        </armedWith>
+    
+        
+        <juvenileDisposition></juvenileDisposition>
+        <nibrsArrest>
+        
+        <arrestChargeUCRCode>64A</arrestChargeUCRCode>
+        
+        
+                <arrestDate>20170324</arrestDate>
+            
+        
+        <arrestTransactionNumber>83961</arrestTransactionNumber>
+        
+        <incidentNumber>1</incidentNumber>
+        
+        <typeOfArrest>T</typeOfArrest>
+        </nibrsArrest>
+        
+        <residentStatus></residentStatus>
+        
+        <sequenceNumber>1</sequenceNumber>
+        
+        <multipleArresteeSegmentIndicator>C</multipleArresteeSegmentIndicator>
+        </nibrsGroupAArrestees>
+    
+        <nibrsIncident>
+        
+        <cargoTheftIndicator></cargoTheftIndicator>
+        
+        
+        <exceptionalClearanceDate></exceptionalClearanceDate>
+        
+        <exceptionallyClearedFlag></exceptionallyClearedFlag>
+        
+        
+                <incidentDate>20170324</incidentDate>
+            
+        
+        <incidentHour>01</incidentHour>
+        
+        <incidentNumber>1</incidentNumber>
+        
+        <reportDateIndicator></reportDateIndicator>
+        </nibrsIncident>
+    
+        <nibrsOffenders>
+        
+        <ageRange>30</ageRange>
+            
+        
+        <ethnicity>H</ethnicity>
+        
+        <race>B</race>
+        
+        <sex>M</sex>
+        
+        <sequenceNumber>1</sequenceNumber>
+        </nibrsOffenders>
+    
+        <nibrsOffenses>
+        
+        
+        <biasMotivations>88</biasMotivations>
+    
+        
+        <locationType>05</locationType>
+        
+        <methodOfEntry></methodOfEntry>
+        <numberPremisesEntered></numberPremisesEntered>
+        
+        
+        <offenderSuspectedUsing>N</offenderSuspectedUsing>
+    
+        
+        <offenseAttemptedIndicator>C</offenseAttemptedIndicator>
+        
+        
+        <typeWeaponForce>
+        
+                <weaponCode>90</weaponCode>
+            
+        </typeWeaponForce>
+    
+        
+        <UCROffenseCode>64A</UCROffenseCode>
+        </nibrsOffenses>
+    
+        <nibrsReportHeader>
+        <actionType>I</actionType>
+        
+        <agencyORI>TSADMIN01</agencyORI>
+        <reportDateMonth>08</reportDateMonth>
+        <reportDateYear>2017</reportDateYear>
+        <segmentLevel>1</segmentLevel>
+        </nibrsReportHeader> 
+    
+        <nibrsVictims>
+        
+        <ageRange>23</ageRange>
+            
+        
+        <ethnicity>N</ethnicity>
+        
+        <race>A</race>
+        
+        <sex>F</sex>
+        
+        
+        
+        <assignmentType></assignmentType>
+        
+            
+            <connectedToUCROffenseCodes>64A</connectedToUCROffenseCodes>
+        
+        <injuryCodes>N</injuryCodes>
+    
+        
+        <justifiableHomicideCode></justifiableHomicideCode>
+        
+            <nibrsRelationships>
+            
+            <offenderNumber>1</offenderNumber>
+            
+            <victimToOffenderRelationship>ST</victimToOffenderRelationship>
+            </nibrsRelationships>
+        
+        
+        <outsideAgencyORI></outsideAgencyORI>
+        
+        <residentStatus>N</residentStatus>
+        
+        <sequenceNumber>1</sequenceNumber>
+        
+        <typeOfActivity></typeOfActivity>
+        
+        <victimType>I</victimType>
+        </nibrsVictims>
+    
+        <nibrsVictims>
+        
+        <ageRange>19</ageRange>
+            
+        
+        <ethnicity>N</ethnicity>
+        
+        <race>W</race>
+        
+        <sex>F</sex>
+        
+        
+        
+        <assignmentType></assignmentType>
+        
+            
+            <connectedToUCROffenseCodes>64A</connectedToUCROffenseCodes>
+        
+        <injuryCodes>N</injuryCodes>
+    
+        
+        <justifiableHomicideCode></justifiableHomicideCode>
+        
+            <nibrsRelationships>
+            
+            <offenderNumber>1</offenderNumber>
+            
+            <victimToOffenderRelationship>ST</victimToOffenderRelationship>
+            </nibrsRelationships>
+        
+        
+        <outsideAgencyORI></outsideAgencyORI>
+        
+        <residentStatus>N</residentStatus>
+        
+        <sequenceNumber>2</sequenceNumber>
+        
+        <typeOfActivity></typeOfActivity>
+        
+        <victimType>I</victimType>
+        </nibrsVictims>
+    
+                </NibrsReport>
+                </ws:SubmitNibrsReport>
+                </soapenv:Body>
+                </soapenv:Envelope>
+            
